@@ -1,0 +1,437 @@
+
+.img_log, #foto_perfil{
+    width: 27px;
+    margin: 12%;  
+    margin-top: 3px;
+}
+nav{
+    height: 35px;
+    line-height: 33px;
+}
+nav .nav-wrapper i {
+    height: 30px;
+    line-height: 33px;
+}
+
+.sidenav li > a {
+    cursor: pointer !important; 
+}
+
+.sidenav .collection a.collection-item {
+    color: #707982 !important; 
+}
+
+.contenedor_buscar {
+    display: inline-block;
+    line-height: 1.7rem;
+    margin-top: 4px;
+    margin-left:10px !important; 
+    border-radius: 4px !important;
+    width: 350px;
+}
+.contenedor_buscar input{
+    height: 1.7rem !important;
+    width:100% !important;
+    border: 1px solid #2196f3 !important;
+    margin: 0px !important;
+
+}
+nav .btn-flat {
+    padding: 0px 0px !important;
+}
+
+#info_gestor input{
+    margin: 0px !important;
+    height: 1.43rem !important;
+    font-size: 14px;
+    color: #000;
+}
+
+#info_gestor .input-field {
+    margin-top: 0.5rem;
+    margin-bottom: 0.2rem;
+}
+
+input.invalid[type="text"]:not(.browser-default) {
+    border-bottom: 1px solid #000;
+    -webkit-box-shadow: 0 1px 0 0 #000;
+    box-shadow: 0 0px 0 0 #000;
+}
+
+input[type="text"]:not(.browser-default).validate + label {
+    color: #000;
+}
+
+#info_gestor_secundario input{
+    margin: 0px !important;
+    height: 1.43rem !important;
+    font-size: 14px;
+    color: #000;
+}
+
+#info_gestor_secundario .input-field {
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.2rem !important;
+}
+
+#div_gestor_gestion input{
+    margin: 0px !important;
+    height: 1.43rem !important;
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+}
+
+.div_data_aval .coll_2 {
+    border: 0px solid #e0e0e0;
+}
+
+.div_data_aval ul{
+    display: inline-block;
+}
+.div_data_aval ul .btn-small {
+    margin: 5px 0px;
+}
+.div_data_aval .coll_1 {
+    width: 80%;
+}
+.div_data_aval .coll_2 {
+    width: 19%;
+}
+
+#div_gestor_gestion .input-field {
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.2rem !important;
+}
+
+#div_gestor_gestion {
+    margin-top: 7px;
+    height: 164px;
+}
+
+#gestion {
+    height: 110px !important;
+    overflow: auto !important;
+}
+
+#div_input_gestor_tiempos input{
+    margin: 0px !important;
+    height: 1.43rem !important;
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+}
+.div_input_gestor_tiempos {
+    margin-top: 0px;
+}
+#div_input_gestor_tiempos .input-field {
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.2rem !important;
+}
+
+
+
+
+.marcacion_directa .collection .collection-item a {
+    margin-left: 1rem;
+}
+.marcacion_directa .collection .collection-item {
+    padding: 1px 20px;
+    font-size: 14px;
+}
+.marcacion_directa .small {
+    font-size: 0.9rem;
+    margin-right: 0.5rem;
+}
+
+.marcacion_directa {
+    margin-top: 7px;
+    max-height: 219px;
+    height: 219px;
+    overflow: auto;
+}
+
+.datos_marcacion_directa {
+    margin: .5rem 0 0.2rem 0 !important;
+}
+
+.div_btn_act_datos a {
+    margin: 11px 20px;
+}
+
+#editar_marcacion_directa input{
+    margin: 0px !important;
+    height: 1.43rem !important;
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+}
+#editar_marcacion_directa .input-field {
+    margin-top: 0.87rem !important;
+    margin-bottom: 0.2rem !important;
+}
+
+.marcacion_directa td,.marcacion_directa th {
+    padding: 4px 5px;
+    font-size: 14px !important;
+}
+
+.font_number_monospace {
+    
+    font-size: 15px !important;
+}
+
+.div_data_aval .input-field {
+    margin-top: 0.3rem !important;
+    margin-bottom: 0.2rem !important;
+}
+.div_data_aval input{
+    margin: 0px !important;
+    height: 1.43rem !important;
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+}
+
+#Direccion {
+    font-weight: bold;
+}
+
+
+.margin_top_7px {
+    margin-top: 7px;
+}
+
+
+
+.div_tabs {
+    margin-top: 7px;
+}
+
+.div_gestor_contenido {
+    height: 200px;
+    overflow: auto;
+    padding: 0 1px !important;
+}
+
+.div_gestor_contenido td,.div_gestor_contenido th {
+    padding: 5px 5px;
+}
+
+.datos_marcacion_directa label {
+    color: black;
+    font-weight: bold;
+}
+
+input[type=text]:not(.browser-default)[readonly="readonly"]{
+    border-bottom: 0px !important;
+    background-color: #fdd7b5 !important
+}
+
+input[type=text]:not(.browser-default).validate+label{
+    font-weight: bold;
+}
+
+/* css modulo de dashboard supervisor */
+.img_gestores {
+    border-radius: 50%;
+    width: 50%;
+}
+
+#tbody_listado_gestores th,td {
+    padding: 5px 3px;
+    font-size: 12px;
+}
+
+
+.img_gestores {
+    border-radius: 50%;
+    width: 50%;
+}
+/* AZUL */
+#tbody_listado_gestores th,td {
+    padding: 5px 3px;
+    font-size: 12px;
+}
+.listado_gestores {
+    height: 45vh;
+    overflow: auto;
+}
+.data_gestores_dash {
+    height: 52vh;
+
+}
+/* AZUL */
+.back_dash_data_1{
+    background: linear-gradient(45deg,rgb(6, 143, 210), rgb(29, 183,216));
+    border-radius: 8px;
+    margin-bottom: 10px;
+    color: white;
+
+}
+.back_dash_data_1:hover{
+    box-shadow: 3px 3px 20px 0 rgba(29, 183, 216, 0.5);
+
+}
+/* ROSA */
+.back_dash_data_2{
+    background: linear-gradient(45deg,rgb(255, 82, 82), rgb(244, 143, 177));
+    border-radius: 8px;
+    margin-bottom: 10px;
+    color: white;
+}
+.back_dash_data_2:hover{
+    box-shadow: 3px 3px 20px 0 rgba(244, 143, 177, 0.5);
+}
+/* VERDE */
+.back_dash_data_3{
+    background: linear-gradient(45deg,rgb(67, 160, 71), rgb(29, 233, 182));
+    border-radius: 8px;
+    margin-bottom: 10px;
+    color: white;
+}
+.back_dash_data_3:hover{
+    box-shadow: 3px 3px 20px 0 rgba(29, 233, 182, 0.5);
+}
+/* NARANJA */
+.back_dash_data_4{
+    background: linear-gradient(45deg,rgb(191, 54, 12), rgb(245, 124, 0));
+    border-radius: 8px;
+    margin-bottom: 10px;
+    color: white;
+}
+.back_dash_data_4:hover{
+    box-shadow: 3px 3px 20px 0 rgba(29, 233, 182, 0.5);
+}
+/* AMARILLO */
+.back_dash_data_5{
+    background: linear-gradient(45deg,rgb(255, 137, 12), rgb(250, 195, 37));
+    border-radius: 8px;
+    margin-bottom: 10px;
+    color: white;
+}
+.back_dash_data_5:hover{
+    box-shadow: 3px 3px 20px 0 rgba(255, 195, 37, 0.5);
+}
+/* MORADO */
+.back_dash_data_6{
+    background: linear-gradient(45deg,rgb(123, 31, 162), rgb(124, 77, 255));
+    border-radius: 8px;
+    margin-bottom: 10px;
+    color: white;
+}
+/* GRIS */
+.back_dash_data_7{
+    background: linear-gradient(45deg,rgb(207, 216, 220), rgb(84, 110, 122));
+    border-radius: 8px;
+    margin-bottom: 10px;
+    color: white;
+}
+/* CELESTE */
+.back_dash_data_8{
+    background: linear-gradient(45deg,rgb(2, 136, 209), rgb(38, 198, 218));
+    border-radius: 8px;
+    margin-bottom: 10px;
+    color: white;
+}
+.back_dash_data_6:hover{
+    box-shadow: 3px 3px 20px 0 rgba(124, 77, 255, 0.5);
+}
+
+.select_color_table{
+    background: linear-gradient(45deg,rgb(255, 111, 0), rgb(255, 202, 40));
+}
+
+
+.back_dash_graf_1{
+    background-color:rgba(0, 0, 0, 0.18);
+    margin-top:15%;
+}
+
+.margin_20_down{
+    margin-bottom: 20px;   
+}
+
+/* termina css modulo de dashboard supervisor */
+.selected {
+    box-sizing: border-box;
+    background: 
+        rgb(137, 222, 255) !important;
+}
+/*llego a tiempo*/
+.estatus_entrada1{ 
+    background-image: linear-gradient(to top, rgba(61, 172, 89, 0.7), rgba(255,255,255, 0.7));
+}  
+/*llego tarde*/
+.estatus_entrada2{ 
+    background-image: linear-gradient(to top, rgba(254,148, 17, 0.7), rgba(255,255,255, 0.7));
+}  
+/*no llego*/
+.estatus_entrada0{ 
+    background-image: linear-gradient(to top, rgba(255, 0, 0, 0.7), rgba(255,255,255, 0.7));
+}  
+.f_llegada1{
+    color:black !important;   
+} 
+.f_llegada0{
+    color:white !important;
+
+}
+
+.letra_blanca {
+    color: white !important; 
+} 
+
+.margin_butt{
+    margin-bottom: 5px !important;
+    margin-top: 5px !important;
+}
+
+#modal_estategia {
+    width: 85%;
+}
+
+.up_logged {
+    cursor: pointer;
+    border-radius: 2px;
+    color: white;
+    padding: 5px 10px;
+}
+
+.definir_estatus {
+    cursor: pointer;
+    border-radius: 2px;
+    color: white;
+    padding: 5px 10px;
+}
+
+.sidenav {
+    color: white;
+    background-color: #2b2a29;
+}
+
+.sidenav .collapsible-header:hover {
+    background-color: rgba(255, 255, 255, 0.18);
+}
+.collapsible {
+    border-top: 1px solid #2b2a29;
+    border-right: 1px solid #2b2a29;
+    border-left: 1px solid #2b2a29;
+}
+
+.header_nav {
+    background: linear-gradient(45deg,rgb(33, 33, 33), rgb(33, 33, 33)) !important;
+}
+
+
+.modal{
+    overflow: visible!important; 
+}
+
+.tabla_resultado_busqueda {
+    max-height: 40vh;
+    overflow: auto;
+}
+#div_lista_agendas {
+    height: 180px;
+}
